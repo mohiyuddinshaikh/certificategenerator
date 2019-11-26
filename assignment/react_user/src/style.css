@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Merriweather&display=swap');
+input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    padding-right: 15vw;
+    margin-top: 3vh;
+  }
+  input{
+      background-color: #fff7e6;
+  }
+  input:focus {
+    border-color: #66fcf1;
+    transition: 0.4s;
+  }
+
+  .col-lg-6{
+      margin-top: 35vh;
+  }
+
+  *{
+      padding: 0;
+      margin:0;
+  }
+
+  .navigation{
+      height: 10vh;
+      width: 100%;
+      color: #66fcf1;
+      background-color: black;
+  }
+  .logo{
+      margin-top: 3vh;
+      margin-left: 4vh;
+  }
+  body{
+    background-color: #fff7e6;
+  }
+
+  .form button{
+      margin-top: 3vh;
+      margin-left: 8vw;
+  }
+  .form button:hover{
+    background-color: black;
+    color: white;
+}
+
+  .headtext{
+      margin-left: 3vw;
+  }
+
+  /*Certificate*/
+
+
+.cert{
+    margin-top:10vh;
+    border:2px solid black;
+    font-family: 'Lobster', cursive;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    position: relative;
+    width: 50vw;
+}
+
+.cert p{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+}
+
+.icons{
+    font-size: 30px;
+    margin: 10px;
+}
+.iconspace{
+    margin-left: 30px;
+}
+
+
+.certbody{
+   margin-top: 9vh;
+}
+
+.copyright{
+    margin-top: 70px;
+}
+
+.cernumber{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+  /*Certificate*/
