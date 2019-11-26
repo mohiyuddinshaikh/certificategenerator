@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color: #fff7e6;
+}
+
+/*Styling Table*/
+
+.table{
+  color: black;
+  border: 2px solid black;
+  margin-top: 5vh;
+}
+
+.table tr th {
+  border-bottom: 2px solid black;
+}
+
+.table td{
+  border: 1px solid black;
+  text-align: center;
+}
+.table th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.table button{
+  background-color: black;
+  color: white;
+}
+.table button:hover{
+  background-color: #dc3545;
+  color: white;
+}
+
+.disprow{
+  margin-top: 5vh;
+}
+
+.disptext{
+  border: 1px solid black;
+  box-shadow: 5px black;
+  padding: 3vh;
+  box-shadow: 0px 3px 8px rgb(100,100,100);
+}
+
+/*Styling Table*/
+
+.menustyle{
+    height: 15vh;
+    width: 100%;
+    background-color: #0B0C10;
+    
+}
+
+.menustyle ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 40px;
+    list-style: none;
+}
+
+.menustyle a{
+    list-style: none;
+    text-transform: uppercase;
+    color: #9d9d9d;
+    text-decoration:none;
+}
+
+.menustyle a:hover{
+  color: white;
+}
+
+.menustyle li:hover{
+    color: #3dc1d3;
+}
+
+.main-nav-active{
+  color: white !important;
+}
+
+/** Style for dashboard table**/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  /** Course Menu Style **/
+ 
+
+  /**Certificate fro dropdwon**/
+  /* .dropdown a{
+    background-color:white;
+    margin: 0;
+  }
+
+  .dropdown a:hover{
+    background-color:#0275d8;
+    color: white !important;
+   
+  }
+
+  .dropdown button{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+  }
+
+  .dropdown button:hover{
+    background-color: #0275d8;
+    color:white;
+    border: 1px solid black;
+  } */
+
+  /**Create certificate*/
+
+  .formborder{
+    border:1px solid black;
+    border-radius: 2%;
+    padding: 50px;
+    box-shadow: 0px 3px 8px rgb(100,100,100);
+  }
+
+  .form-group option{
+    padding-top:10px ;
+  }
+
+ .form-container{
+   margin-top: 6vh;
+ }
+
+ 
+ .form-container button:hover{
+  background-color:black ;
+  color: white;
+}
+
+  /**Create certificate*/
+
+  /*Course menu*/
+
+  .coursemenustyle ul li{
+    border:1px solid black;
+    width: auto;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    margin-top:5vh;
+    background-color: black;
+    color: #9d9d9d !important;
+}
+
+.coursemenustyle  a{
+  color: #9d9d9d;
+}
+
+.coursemenustyle  a:hover{
+  color: white;
+}
+
+
+  .main-course-active{
+    color: white !important;
+  }
+
+
+
+  /*Course menu*/
+
+  /*Course form*/
+
+  .addcourse{
+    margin-top: 5vh;
+  }
+
+  .addcourse form{
+    border: 1px solid black;
+    padding: 8vh;
+    box-shadow: 0px 3px 8px rgb(100,100,100);
+  }
+
+  .addcourse .btn:hover{
+    background-color: black;
+    color: white;
+  }
+  .addbtn{
+    margin-top: 1vh;
+  }
+
+  /*Course form*/
+
+.coursetable table{
+  box-shadow: 0px 3px 8px rgb(100,100,100);
+}
+
+
+
+
