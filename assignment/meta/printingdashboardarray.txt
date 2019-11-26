@@ -1,0 +1,13 @@
+{this.state.details.map((person,index) => (
+                                <div key={index}>
+                                    <br/>
+                                    <h3>Entry #{index+1}</h3>   <br/> 
+                                    <h3>First Name : {person.firstname}</h3>
+                                    <h3>Last Name : {person.lastname}</h3>
+                                    <h3>TzID : {person.tzId}</h3>
+                                    <h3>Date of Completion : {person.dateOfCompletion}</h3>
+                                    <h3>Course : {person.course}</h3>
+                                    <h3>Description : {person.description}</h3>
+                                </div>
+                                ))
+                                    }
